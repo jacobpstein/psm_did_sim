@@ -1,4 +1,4 @@
-# Why you shouln't match on treatment affected variables
+# Why you shouldn't match on treatment affected variables
 
 This repository accompanies a [post](https://www.linkedin.com/pulse/simulation-did-psm-nate-ives-83are/?trackingId=aI%2BVnMr5Sh%2Btt6bzd9H0Tg%3D%3D) that I wrote with Nate Ives drawn from a project we worked on at USAID. The code demonstrates the bias introduced when post-treatment variables are included in propensity score matching models. The simulation compares two approaches for estimating causal effects in a difference-in-differences framework: an improper PSM approach that conditions on treatment-affected outcomes versus a doubly robust approach that uses only pre-treatment covariates.
 
